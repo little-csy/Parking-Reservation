@@ -1,9 +1,9 @@
-================================================================================
+=========================================================
 
 # Parking-Reservation
 This project implements a distributed parking reservation system that addresses these challenges through a multi-server architecture. This system will feature basic user authentication, real-time availability checking, reservation processing, and dynamic pricing based on multiple factors including zone location, time of day, and duration.
 
-================================================================================
+=========================================================
 
 I. What I Have Done in This Assignment
 
@@ -25,7 +25,7 @@ I. What I Have Done in This Assignment
     7. Reservation state stored in memory and updated dynamically
     8. Completely robust TCP send/receive logic (send_all, recv_line)
 
-================================================================================
+=========================================================
 
 II.  Code Files and Their Functions
 
@@ -70,7 +70,7 @@ II.  Code Files and Their Functions
     6. Makefile
     Builds all servers and client
 
-================================================================================
+=========================================================
 
 III. Message Formats Used in My Project
 
@@ -119,7 +119,7 @@ III. Message Formats Used in My Project
     Refund:
     USAGE_REFUND <username> <lot> <slotsCount*2hours>
 
-================================================================================
+=========================================================
 
     IV. Idiosyncrasies and Known Limitations
 
@@ -134,13 +134,13 @@ III. Message Formats Used in My Project
 
     5. Pricing assumes each slot = 2 hours, exactly as defined in project.
 
-================================================================================
+=========================================================
 
     V. Reused Code
 
     I did not reuse code from external sources.
 
-================================================================================
+=========================================================
 
     VI. Ubuntu Version Used
 
